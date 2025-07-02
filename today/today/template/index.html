@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Similarity</title>
+</head>
+<body>
+    <style>
+         body {
+      text-align: center;
+      font-size: 24px;
+      color: #333;
+      background-image: url("/static/images/water.jpeg");
+      background-repeat: repeat;
+      background-attachment: fixed;
+    }
+    
+        h1 {
+          color: #db0707; /* Change this to your desired header color */
+        }
+    
+        p {
+          color: #00ff00; /* Change this to your desired paragraph color */
+        }
+        
+        /* Adjust the button size and padding */
+        button {
+            font-size: 32px; /* Increase the font size to make the button bigger */
+            padding: 10px 20px; /* Adjust the padding to increase the button's size */
+        }
+      </style>
+    
+    <h1>Image Similarity Comparison</h1>
+    <form action="/result" method="GET">
+        <button type="submit">Compare Images</button>
+    </form>
+</body>
+</html>
